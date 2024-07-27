@@ -5,7 +5,7 @@
 ################################################################################
 
 RUSTSBI_HPM_VERSION = d2ffb6d76a59f2aaf8a64de1602164cffd62b77a
-RUSTSBI_HPM_SITE = $(call github,hpm-rs,rustsbi-hpm,$(RUSTSBI_HPM_VERSION))
+RUSTSBI_HPM_SITE = $(call github,rustsbi,rustsbi-hpm,$(RUSTSBI_HPM_VERSION))
 
 RUSTSBI_HPM_INSTALL_IMAGES = YES
 
