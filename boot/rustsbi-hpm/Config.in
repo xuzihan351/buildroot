@@ -1,0 +1,7 @@
+config BR2_TARGET_RUSTSBI_HPM
+	bool "rustsbi-hpm"
+	depends on BR2_riscv
+	help
+	  RustSBI implement for HPMicro MCUs.
+
+	  https://github.com/rustsbi/rustsbi-hpm.git
