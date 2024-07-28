@@ -4,6 +4,8 @@
 
 为 HPMicro MCUs 生成可启动的 Linux 镜像。
 
+[![asciicast](https://asciinema.org/a/JY1MJ8BY5g77wwIlEk9NCYnWn.svg)](https://asciinema.org/a/JY1MJ8BY5g77wwIlEk9NCYnWn)
+
 **考虑到 Buildroot 编译一次耗时过长，提供了 pre-built 镜像，可在最新的 [CI 构建](https://github.com/hpm-rs/buildroot/actions/workflows/build.yml) 中下载。**
 
 如果你想在本地环境编译，请参考下列说明。
