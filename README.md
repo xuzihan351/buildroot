@@ -22,6 +22,8 @@ git clone https://github.com/hpm-rs/buildroot.git
 
 ```shell
 sudo apt-get install bc bison build-essential flex libssl-dev unzip
+# 安装 rust 编译环境
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ## 编译
