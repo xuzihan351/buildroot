@@ -1,0 +1,11 @@
+config BR2_TARGET_HPMICRO_LOADER
+	bool "hpmicro_opensbi_loader"
+	help
+	  Lowlevel loader for hpmciro SOCs using OpenSBI
+
+if BR2_TARGET_HPMICRO_LOADER
+config BR2_TARGET_HPMICRO_BOARD_NAME
+	string "HPMicro Board Name"
+	help
+	  Enter HPMicro Board Name. Example: hpm6800evk. This is passed to hpm_sdk's cmake arg "-DBOARD={}":"https://github.com/hpmicro/hpm_sdk"
+endif
